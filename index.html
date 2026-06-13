@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Onyeodime Atelier | Bespoke Menswear &amp; Traditional Textiles</title>
+  <meta name="description" content="Blending indigenous Nigerian textile techniques with contemporary design. Bespoke tailoring, Adire dyeing, and Aso-Oke weaving by Nwagbara David Onyeodime.">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <!-- Google Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#" class="brand-logo">ONYEODIME <span class="logo-light">ATELIER</span></a>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Navigation">
+        <span class="material-icons">menu</span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a href="#about" class="nav-link">Our Philosophy</a>
+        <a href="#craft" class="nav-link">The Craft</a>
+        <a href="#exhibitions" class="nav-link">Exhibitions</a>
+        <a href="#fittings" class="btn btn-primary">Book a Fitting</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-split">
+      
+      <!-- Left Hero Column -->
+      <div class="hero-left-col">
+        <!-- Top Yellow Box -->
+        <div class="hero-yellow-box">
+          <div class="brand-badge-box">O.</div>
+          <h1>Bespoke Heritage</h1>
+          <p class="hero-brand-subtitle">ONYEODIME ATELIER</p>
+          <div class="meta-row">
+            <div class="meta-item">
+              <span class="meta-label">ATELIER LOCATIONS</span>
+              <span class="meta-val">Middlesbrough &amp; Lagos</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">CURRENT SHOW</span>
+              <span class="meta-val">Nike Art Gallery Archive</span>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Bottom White Navigation Box -->
+        <div class="hero-nav-box">
+          <span class="nav-tagline">Bespoke Collection</span>
+          <div class="nav-slider-control">
+            <span class="slide-index" id="slideIndex">01</span>
+            <div class="slide-progress-line">
+              <div class="slide-progress-bar" id="progressBar"></div>
+            </div>
+            <span class="slide-index">02</span>
+          </div>
+          <div class="slider-arrows">
+            <button class="arrow-btn" id="prevSlide" aria-label="Previous Slide"><span class="material-icons">chevron_left</span></button>
+            <button class="arrow-btn" id="nextSlide" aria-label="Next Slide"><span class="material-icons">chevron_right</span></button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Hero Column (Image & Overlap) -->
+      <div class="hero-right-col">
+        <div class="hero-image-wrapper">
+          <img src="assets/images/bespoke-suit.png" alt="Bespoke tailoring Onyeodime Atelier suit" id="heroImage" class="hero-img parallax-layer" data-speed="0.12">
+        </div>
+        
+        <!-- Overlapping Dark Slate Box -->
+        <div class="hero-slate-box" id="heroTextCard">
+          <p class="slate-text">
+            Blending indigenous textile techniques with structured contemporary tailoring. Onyeodime Atelier specializes in bespoke menswear and womenswear, custom-crafted utilizing hand-dyed indigo Adire and hand-woven Aso-Oke.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- About / Philosophy Section -->
+  <section id="about" class="section about-section">
+    <div class="container grid-2">
+      <div class="about-content">
+        <span class="section-tagline">THE CRAFTSMAN</span>
+        <h2 class="section-title">Rooted in Master Apprenticeships</h2>
+        <p class="lead-text">
+          Onyeodime Atelier was founded by Nwagbara David Onyeodime, whose design expertise was forged directly in traditional West African weaving cooperatives and elite couture houses.
+        </p>
+        <p>
+          Rejecting mass production, David trained under master dyers at the Nike Art Gallery to study pattern symbolism and indigo extraction. He spent months immersed in the narrow-loom weaving cooperatives of Iseyin, Oyo State learning traditional Aso-Oke production, before polishing his techniques in luxury bespoke design at the renowned Deola Sagoe Atelier and Mowalola Ogunlesi Design.
+        </p>
+        <p>
+          Now operating between Middlesbrough, North Yorkshire and Lagos, Nigeria, David's collections blend high-concept design with deep cultural roots.
+        </p>
+      </div>
+      <div class="apprenticeship-timeline">
+        <h3>Mastery Milestones</h3>
+        <ul class="timeline">
+          <li>
+            <span class="timeline-year">Present</span>
+            <div class="timeline-details">
+              <h4>Mowalola Ogunlesi (Lagos/London)</h4>
+              <p>Junior Designer specializing in textile development and youth culture research.</p>
+            </div>
+          </li>
+          <li>
+            <span class="timeline-year">2024</span>
+            <div class="timeline-details">
+              <h4>Deola Sagoe Atelier (Lagos)</h4>
+              <p>Studio Intern studying luxury bespoke production processes.</p>
+            </div>
+          </li>
+          <li>
+            <span class="timeline-year">2023</span>
+            <div class="timeline-details">
+              <h4>Aso-Oke Weaving Coop (Iseyin)</h4>
+              <p>Apprentice weaver, specialized in hand-loomed narrow strip textiles.</p>
+            </div>
+          </li>
+          <li>
+            <span class="timeline-year">2022</span>
+            <div class="timeline-details">
+              <h4>Nike Art Gallery (Lagos)</h4>
+              <p>Textile apprentice in traditional indigo resist-dyeing (Adire) under master dyers.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- The Craft Section -->
+  <section id="craft" class="section craft-section bg-light">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-tagline">ARTISANAL CORE</span>
+        <h2 class="section-title">Our Indigenous Textiles &amp; Methods</h2>
+        <p class="section-desc">Every garment is built from scratch, respecting traditional cycles of dyeing, weaving, and tailoring.</p>
+      </div>
+
+      <div class="grid-3 craft-grid">
+        <!-- Card 1 -->
+        <div class="craft-card">
+          <div class="craft-icon-box"><span class="material-icons">waves</span></div>
+          <h3>Traditional Adire</h3>
+          <p>
+            Traditional indigo resist-dyeing. We extract natural blue pigments from local indigo leaves to create intricate geometric and symbolic resistance patterns.
+          </p>
+        </div>
+        <!-- Card 2 -->
+        <div class="craft-card">
+          <div class="craft-icon-box"><span class="material-icons">texture</span></div>
+          <h3>Hand-Loomed Aso-Oke</h3>
+          <p>
+            Woven strip-by-strip on narrow wooden looms. We weave raw cotton and silk threads into thick, textured fabrics that form the structure of our couture.
+          </p>
+        </div>
+        <!-- Card 3 -->
+        <div class="craft-card">
+          <div class="craft-icon-box"><span class="material-icons">content_cut</span></div>
+          <h3>Bespoke Construction</h3>
+          <p>
+            Master tailoring of traditional elements, including structured Agbada shapes, draping layouts, pattern cutting, and bespoke hand-embroidery details.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Exhibitions Timeline / Grid -->
+  <section id="exhibitions" class="section exhibitions-section">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-tagline">PORTFOLIO</span>
+        <h2 class="section-title">Exhibitions &amp; Runway Shows</h2>
+        <p class="section-desc">Showcasing our collections in art institutions and fashion capitals internationally.</p>
+      </div>
+
+      <div class="exhibition-timeline-list">
+        <div class="exhibition-item">
+          <div class="ex-meta">
+            <span class="ex-year">2022</span>
+            <span class="ex-loc">Ikoyi, Lagos</span>
+          </div>
+          <div class="ex-info">
+            <h4>Private Showroom Presentation</h4>
+            <p>An invitation-only presentation of structured menswear collections for collectors and press representatives.</p>
+          </div>
+        </div>
+
+        <div class="exhibition-item">
+          <div class="ex-meta">
+            <span class="ex-year">2021</span>
+            <span class="ex-loc">Lagos, Nigeria</span>
+          </div>
+          <div class="ex-info">
+            <h4>Lagos Fashion Council Showcase</h4>
+            <p>Participant in the Young Designer Mentorship Program, exhibiting textile innovation works.</p>
+          </div>
+        </div>
+
+        <div class="exhibition-item">
+          <div class="ex-meta">
+            <span class="ex-year">2019</span>
+            <span class="ex-loc">Alliance Française, Lagos</span>
+          </div>
+          <div class="ex-info">
+            <h4>Solo Presentation: Adire Reimagined</h4>
+            <p>A comprehensive solo exhibition focusing entirely on garments constructed with hand-dyed Adire indigo fabrics.</p>
+          </div>
+        </div>
+
+        <div class="exhibition-item">
+          <div class="ex-meta">
+            <span class="ex-year">2018</span>
+            <span class="ex-loc">Nike Art Gallery</span>
+          </div>
+          <div class="ex-info">
+            <h4>"Hand of the Master" Group Show</h4>
+            <p>Featured textile artist showing raw Aso-Oke weaves and indigo fabrics held in the gallery's permanent archives.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Fitting booking -->
+  <section id="fittings" class="section fittings-section bg-light">
+    <div class="container mini-container">
+      <div class="section-header text-center">
+        <span class="section-tagline">BESPOKE SERVICES</span>
+        <h2 class="section-title">Book a Fitting Appointment</h2>
+        <p class="section-desc">Request a private consultation at our Middlesbrough design office or our Lagos atelier.</p>
+      </div>
+
+      <form id="fittingForm" class="fitting-form">
+        <div class="form-group">
+          <label for="clientName">Name</label>
+          <input type="text" id="clientName" class="form-control" required placeholder="e.g. David Nwagbara">
+        </div>
+        <div class="form-group">
+          <label for="clientEmail">Email Address</label>
+          <input type="email" id="clientEmail" class="form-control" required placeholder="name@domain.com">
+        </div>
+        <div class="form-group">
+          <label for="fittingLocation">Atelier Location</label>
+          <select id="fittingLocation" class="form-control">
+            <option>Middlesbrough Atelier (North Yorkshire, UK)</option>
+            <option>Lagos Showroom (Victoria Island, Nigeria)</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="fittingType">Commission Type</label>
+          <select id="fittingType" class="form-control">
+            <option>Bespoke Menswear (Agbada / Suit)</option>
+            <option>Bespoke Womenswear</option>
+            <option>Textile Custom Commission (Adire / Aso-Oke)</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="additionalNotes">Design Vision / Sizing Specifications</label>
+          <textarea id="additionalNotes" rows="4" class="form-control" placeholder="Provide any details about fabric preference, event date, or custom embroideries..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-secondary btn-block">Submit Booking Request</button>
+      </form>
+
+      <div id="successMsg" class="success-box hidden">
+        <span class="material-icons">workspace_premium</span>
+        <p>Commission logged! Our atelier coordinator will follow up within 24 hours to schedule your digital or in-person measurement session.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Robust Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        
+        <div class="footer-brand-col">
+          <a href="#" class="footer-logo">ONYEODIME <span class="logo-light">ATELIER</span></a>
+          <p class="footer-desc">Bespoke menswear and womenswear blending traditional Yoruba weaving, indigo resist-dyeing, and contemporary European tailoring lines.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Instagram"><span class="material-icons">photo_camera</span></a>
+            <a href="#" aria-label="Mail"><span class="material-icons">alternate_email</span></a>
+          </div>
+        </div>
+
+        <div class="footer-links-col">
+          <h4>Atelier Sections</h4>
+          <ul>
+            <li><a href="#about">Philosophy</a></li>
+            <li><a href="#craft">The Craft</a></li>
+            <li><a href="#exhibitions">Exhibitions</a></li>
+            <li><a href="#fittings">Book Appointment</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links-col">
+          <h4>Artisanship</h4>
+          <ul>
+            <li>Indigo Dyeing (Adire)</li>
+            <li>Strip Weaving (Aso-Oke)</li>
+            <li>Bespoke Tailoring</li>
+            <li>Hand-beaded Couture</li>
+          </ul>
+        </div>
+
+        <div class="footer-links-col">
+          <h4>Contact &amp; Hours</h4>
+          <p class="contact-line"><span class="material-icons">location_on</span> 105 Victoria Road, Middlesbrough, UK</p>
+          <p class="contact-line"><span class="material-icons">location_on</span> Victoria Island, Lagos, NG</p>
+          <p class="contact-line"><span class="material-icons">email</span> kiasdavid@yahoo.com</p>
+        </div>
+
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Onyeodime Atelier. All rights reserved. Blending traditional Yoruba textiles and classic tailoring lines.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
