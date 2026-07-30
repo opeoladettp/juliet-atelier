@@ -1,6 +1,6 @@
 // JavaScript for Onyeodime Atelier — onyeodimeatelier.com.ng
 
-const FORMSEND_API_KEY = '7d6756c6a721299a2531a318c8fb856b7a58565215ec9072569cf86e92f47fb8';
+const FORMSEND_API_KEY = '113a536319929b3fbf6105d2e57f6c96a30a29388d965b6da4ae1a6245926004';
 const FORMSEND_ENDPOINT = 'https://api.formsend.ezeroandone.io/submit';
 
 document.addEventListener('DOMContentLoaded', () => {
