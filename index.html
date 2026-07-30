@@ -2,9 +2,16 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Juliet Onyanta Atelier | Contemporary African Luxury Fashion</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Onyeodime Atelier | Contemporary African Luxury Fashion</title>
   <meta name="description" content="Translating African heritage into contemporary global fashion. Luxury womenswear design, creative direction, and cultural storytelling by Juliet Onyanta.">
+  <meta name="theme-color" content="#ff2a3b">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Onyeodime Atelier | Contemporary African Luxury Fashion">
+  <meta property="og:description" content="Translating African heritage into contemporary global fashion.">
+  <meta property="og:url" content="https://onyeodimeatelier.com.ng">
+  <meta property="og:type" content="website">
+  <link rel="canonical" href="https://onyeodimeatelier.com.ng">
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,12 +28,12 @@
   <nav class="navbar" id="navbar">
     <div class="nav-container">
       <a href="#" class="brand-logo">
-        <span class="logo-accent">J.O.</span> ATELIER
+        <span class="logo-accent">O.</span> ATELIER
       </a>
-      <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Navigation">
+      <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Navigation" aria-expanded="false" aria-controls="nav-links">
         <span class="material-icons">menu</span>
       </button>
-      <div class="nav-links" id="nav-links">
+      <div class="nav-links" id="nav-links" role="navigation">
         <a href="#story" class="nav-link">Our Story</a>
         <a href="#collections" class="nav-link">Collections</a>
         <a href="#expertise" class="nav-link">Expertise</a>
@@ -56,8 +63,8 @@
       
       <!-- Center Image -->
       <div class="hero-image-container">
-        <img src="assets/images/hero-model.png" alt="Ocheibi Onyanta Juliet Collection Model" class="hero-image parallax-layer" data-speed="0.12">
-        <span class="logo-watermark">A.</span>
+        <img src="assets/images/hero-model.png" alt="Ocheibi Onyanta Juliet Collection Model" class="hero-image parallax-layer" data-speed="0.12" loading="eager">
+        <span class="logo-watermark" aria-hidden="true">A.</span>
       </div>
 
       <!-- Overlapping Blue Card -->
@@ -66,7 +73,7 @@
           Translating African heritage into commercially viable, globally relevant luxury fashion. Juliet Onyanta Atelier blends indigenous textiles like Adire and Aso-Oke with contemporary silhouettes to achieve unabashed sophistication.
         </p>
         <a href="#collections" class="card-link">
-          Explore Lookbook <span class="material-icons">arrow_forward</span>
+          Explore Lookbook <span class="material-icons" aria-hidden="true">arrow_forward</span>
         </a>
       </div>
     </div>
@@ -79,7 +86,7 @@
         <span class="section-tagline">CULTURAL STORYTELLER</span>
         <h2 class="section-title">Bridging Heritage and Global Couture</h2>
         <p class="lead-text">
-          Founded and led by Ocheibi Onyanta Juliet, Juliet Onyanta Atelier operates at the unique intersection of indigenous craftsmanship and global high fashion.
+          Founded and led by Ocheibi Onyanta Juliet, Onyeodime Atelier operates at the unique intersection of indigenous craftsmanship and global high fashion.
         </p>
         <p>
           With a strong foundation in Business Administration from the Federal Polytechnic Bauchi, Juliet combines sharp design leadership with strategic business acumen. She oversees the end-to-end production lifecycle—from concept development and sustainable textile sourcing to runway presentations and client styling.
@@ -129,7 +136,7 @@
         <!-- Collection 1 -->
         <div class="lookbook-card">
           <div class="card-img-holder">
-            <div class="card-img-placeholder adire-bg"></div>
+            <div class="card-img-placeholder adire-bg" role="img" aria-label="Adire Reimagined lookbook collection"></div>
             <span class="collection-badge">Lagos FW</span>
           </div>
           <div class="card-details">
@@ -140,7 +147,7 @@
         <!-- Collection 2 -->
         <div class="lookbook-card">
           <div class="card-img-holder">
-            <div class="card-img-placeholder asooke-bg"></div>
+            <div class="card-img-placeholder asooke-bg" role="img" aria-label="Aso-Oke Couture lookbook collection"></div>
             <span class="collection-badge">London FW</span>
           </div>
           <div class="card-details">
@@ -151,7 +158,7 @@
         <!-- Collection 3 -->
         <div class="lookbook-card">
           <div class="card-img-holder">
-            <div class="card-img-placeholder global-bg"></div>
+            <div class="card-img-placeholder global-bg" role="img" aria-label="The Diaspora Edit lookbook collection"></div>
             <span class="collection-badge">Pret-a-Porter</span>
           </div>
           <div class="card-details">
@@ -174,21 +181,21 @@
       <div class="grid-3 capabilities-grid">
         <div class="capability-card">
           <div class="cap-icon-box">
-            <span class="material-icons">design_services</span>
+            <span class="material-icons" aria-hidden="true">design_services</span>
           </div>
           <h3>Design & Production</h3>
           <p>End-to-end collection development, bespoke pattern cutting, drapery, and high-quality garment construction controls.</p>
         </div>
         <div class="capability-card">
           <div class="cap-icon-box">
-            <span class="material-icons">palette</span>
+            <span class="material-icons" aria-hidden="true">palette</span>
           </div>
           <h3>Textile Application</h3>
           <p>Strategic integration of indigenous textiles (Adire, Aso-oke) with luxury wools, silks, and contemporary fabrics.</p>
         </div>
         <div class="capability-card">
           <div class="cap-icon-box">
-            <span class="material-icons">camera</span>
+            <span class="material-icons" aria-hidden="true">camera</span>
           </div>
           <h3>Creative Direction</h3>
           <p>Overseeing campaign shoots, visual storytelling across lookbooks, and high-profile editorial styling.</p>
@@ -204,7 +211,7 @@
         <span class="section-tagline">SOCIAL IMPACT</span>
         <h2 class="section-title">Empowering Local Artisanship</h2>
         <p>
-          We believe luxury should empower. Juliet Onyanta Atelier is built on a structured production model that provides employment to over 10 native artisans, weavers, and tailors within the regional fashion value chain.
+          We believe luxury should empower. Onyeodime Atelier is built on a structured production model that provides employment to over 10 native artisans, weavers, and tailors within the regional fashion value chain.
         </p>
         <p>
           By creating stable economic opportunities and showcasing their handiwork at showcases like Africa Fashion Week London and Lagos Fashion Week, we promote cultural sustainability and support traditional craftsmanship.
@@ -214,11 +221,11 @@
           <h4>Awards & Recognition</h4>
           <ul class="recognition-list">
             <li>
-              <span class="material-icons text-primary">emoji_events</span>
+              <span class="material-icons text-primary" aria-hidden="true">emoji_events</span>
               <span><strong>Emerging Designer of the Year</strong> – Nigerian Fashion Awards</span>
             </li>
             <li>
-              <span class="material-icons text-primary">article</span>
+              <span class="material-icons text-primary" aria-hidden="true">article</span>
               <span><strong>Media Features</strong> – Vogue Africa and BellaNaija Style for innovative storytelling</span>
             </li>
           </ul>
@@ -250,34 +257,38 @@
         </p>
       </div>
 
-      <form class="appointment-form" id="consultationForm">
+      <form class="appointment-form" id="consultationForm" novalidate>
         <div class="form-grid">
           <div class="form-group">
             <label for="fullName">Full Name</label>
-            <input type="text" id="fullName" class="form-control" required placeholder="e.g. Chinwe Ada">
+            <input type="text" id="fullName" name="name" class="form-control" required placeholder="e.g. Chinwe Ada" autocomplete="name">
           </div>
           <div class="form-group">
             <label for="emailAddress">Email Address</label>
-            <input type="email" id="emailAddress" class="form-control" required placeholder="name@domain.com">
+            <input type="email" id="emailAddress" name="email" class="form-control" required placeholder="name@domain.com" autocomplete="email">
           </div>
         </div>
         <div class="form-group">
           <label for="serviceType">Service Required</label>
-          <select id="serviceType" class="form-control">
+          <select id="serviceType" name="subject" class="form-control">
             <option>Bespoke Womenswear Design</option>
             <option>Bridal Couture Consultation</option>
-            <option>Lookbook Wholesale & Retail Orders</option>
-            <option>Styling & Creative Direction Booking</option>
+            <option>Lookbook Wholesale &amp; Retail Orders</option>
+            <option>Styling &amp; Creative Direction Booking</option>
           </select>
         </div>
         <div class="form-group">
           <label for="notes">Fitting Notes / Design Concept</label>
-          <textarea id="notes" rows="4" class="form-control" placeholder="Describe your design preference, sizing, or event date..."></textarea>
+          <textarea id="notes" name="message" rows="4" class="form-control" placeholder="Describe your design preference, sizing, or event date..." required></textarea>
         </div>
-        <button type="submit" class="btn btn-secondary btn-block">Submit Atelier Request</button>
+        <div id="formError" class="form-error-msg hidden" role="alert" aria-live="polite"></div>
+        <button type="submit" class="btn btn-secondary btn-block" id="submitBtn">
+          <span id="submitBtnText">Submit Atelier Request</span>
+          <span id="submitBtnLoader" class="btn-loader hidden" aria-hidden="true"></span>
+        </button>
       </form>
-      <div id="formSuccess" class="form-success-msg hidden">
-        <span class="material-icons">check_circle</span>
+      <div id="formSuccess" class="form-success-msg hidden" role="status" aria-live="polite">
+        <span class="material-icons" aria-hidden="true">check_circle</span>
         <p>Thank you! Your fitting request has been received. Our creative team will contact you shortly.</p>
       </div>
     </div>
@@ -290,15 +301,15 @@
         <!-- Logo and About -->
         <div class="footer-brand">
           <a href="#" class="footer-logo">
-            <span class="logo-accent">J.O.</span> ATELIER
+            <span class="logo-accent">O.</span> ATELIER
           </a>
           <p class="footer-about-text">
             Operating at the intersection of cultural storytelling and contemporary global fashion. Established in Lagos, Nigeria.
           </p>
           <div class="social-links">
-            <a href="#" class="social-link-icon" aria-label="Instagram"><span class="material-icons">camera_alt</span></a>
-            <a href="#" class="social-link-icon" aria-label="Pinterest"><span class="material-icons">photo_album</span></a>
-            <a href="#" class="social-link-icon" aria-label="Vogue Profile"><span class="material-icons">chrome_reader_mode</span></a>
+            <a href="#" class="social-link-icon" aria-label="Instagram"><span class="material-icons" aria-hidden="true">camera_alt</span></a>
+            <a href="#" class="social-link-icon" aria-label="Pinterest"><span class="material-icons" aria-hidden="true">photo_album</span></a>
+            <a href="#" class="social-link-icon" aria-label="Vogue Profile"><span class="material-icons" aria-hidden="true">chrome_reader_mode</span></a>
           </div>
         </div>
 
@@ -328,23 +339,23 @@
           <h4 class="footer-col-title">Locations</h4>
           <ul class="footer-contact-info">
             <li>
-              <span class="material-icons">location_on</span>
+              <span class="material-icons" aria-hidden="true">location_on</span>
               <span>Lagos Atelier: Victoria Island, Lagos, Nigeria</span>
             </li>
             <li>
-              <span class="material-icons">location_on</span>
+              <span class="material-icons" aria-hidden="true">location_on</span>
               <span>Bauchi Office: Bauchi State, Nigeria</span>
             </li>
             <li>
-              <span class="material-icons">email</span>
-              <span>creative@onyantaatelier.com</span>
+              <span class="material-icons" aria-hidden="true">email</span>
+              <span>creative@onyeodimeatelier.com.ng</span>
             </li>
           </ul>
         </div>
       </div>
 
       <div class="footer-bottom">
-        <p>&copy; 2026 Juliet Onyanta Atelier. All rights reserved. Blending traditional Adire & Aso-Oke with global couture.</p>
+        <p>&copy; 2026 Onyeodime Atelier. All rights reserved. Blending traditional Adire &amp; Aso-Oke with global couture.</p>
       </div>
     </div>
   </footer>
